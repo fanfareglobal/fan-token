@@ -2,13 +2,13 @@ pragma solidity ^0.4.24;
 
 import "ds-test/test.sol";
 
-import "./FanToken.sol";
+import "./FAN.sol";
 
-contract FanTokenTest is DSTest {
-    FanToken token;
+contract FANTest is DSTest {
+    FAN token;
 
     function setUp() public {
-        token = new FanToken();
+        token = new FAN();
     }
 
     function testFail_basic_sanity() public {
